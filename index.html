@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Derik's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Just Another Developer</div><br>
+    <div id="links">
+        <a href="#about">about me</a>
+        <a href="#skills">skills</a>
+        <a href="#work">works</a>
+        <a href="#contact">contact</a>
+    </div>
+    </div>
+
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+            Welcome to my portfolio!
+            <br>
+            <button class="btn_one">Check It.</button>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div id="about">
+            <h1>about me.</h1>   
+            <div>
+                   <p>
+                        Hey! I'm Derik Claude M. Alvarez, a computer science student and hobbyist.
+                        <br>
+                        I'm a hobbyist developer who mainly prefers game development, but occasionally dips his toes into web development as well. Although, it's not a main priority for me.
+                        I've always wanted to be a developer ever since I was a child, but I never truly took it seriously until Grade 11. I've been studying computer programming in iACADEMY ever since, and I plan to turn my programming into both a hobby and a job opportunity.
+                   </p>
+            </div> 
+        </div>
+
+             <div id="skills">
+                 <h1>skills.</h1>   
+                 <div>
+                        <p>
+                            I'm mainly well-versed in:
+                            
+                            <h1>programming languages.</h1>
+                            <ul>
+                                <li>C#</li>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            
+                            <h1>game engines.</h1>
+                            <ul>
+                                <li>Godot</li>
+                                <li>Unity</li>
+                            </ul> 
+                        </p>
+                 </div> 
+             </div>
+         
+              <div id="work">
+                 <h1>works.</h1>
+
+                 <div class="project">
+                 <h2>Exercise Caution (Game for Science Project)</h2>
+                 <div>
+                    A game a I made as a group project for my Science class. Basically, it's a minigame-collection in the style of the "Wario-Ware" games.
+                 </div>
+                 <div>
+                    <img src="pics/sci3.png" alt="The title screen">
+                    <h3>The Title Screen</h3>
+                    <img src="pics/sci1.png" alt="One of the minigames">
+                    <h3>One of the Minigames</h3>
+                    <img src="pics/sci4.png" alt="Another one of the minigames">
+                    <h3>Another one of the Minigames</h3>
+                    <img src="pics/sci2.png" alt="The score results screen">
+                    <h3>The Results Screen</h3>
+                </div>
+                 </div>
+
+                <div class="project">
+                 <h2>Godot Engine FPS Movement Prototype</h2>
+                 <div>
+                    A game-prototype for an FPS movement system that I made also using the Godot game engine. It has multiple features, including movement mechanics such as vaulting, climbing, and sliding.
+                    <br>
+                    The player character's movement is handled through a finite state machine. It was the first time I used such a method in any programming language.
+                 </div>
+                </div>
+
+             </div>
+         
+              <div id="contact">
+                 <h1>contact.</h1> 
+                 <form>
+                     <input type="text" placeholder="name" required>
+                     <input type="email" placeholder="email" required><br>
+                     <textarea placeholder="your message" required rows="5"></textarea><br>
+                     <button class="btn_one">send</button>
+                 </form> 
+                 <div id="details">
+                    <a class="btn_social"><i class="fas fa-phone"></i></a>
+                    <a class="btn_social"><i class="fas fa-at"></i></a>
+                    <a class="btn_social"><i class="fab fa-twitter"></i></a>
+                    <a class="btn_social"><i class="fab fa-dribbble"></i></a>
+                 </div>   
+             </div>
+    </div>
+    <div id="footer">
+        made on earth by a human <br><br> <a href="https://imfunniee.github.io">imfunniee</a>
+    </div>
+<script src="index.js" type="text/javascript"></script>
+</body>
+</html>
